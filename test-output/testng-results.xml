@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Success login]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15395" started-at="2020-10-26T22:14:27 EDT" finished-at="2020-10-26T22:14:43 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15395" started-at="2020-10-26T22:14:27 EDT" finished-at="2020-10-26T22:14:43 EDT">
+      <class name="com.wordpress.tests.WordpressValidLogin">
+        <test-method status="PASS" signature="checkValidLogin()[pri:0, instance:com.wordpress.tests.WordpressValidLogin@68bbe345]" name="checkValidLogin" duration-ms="15347" started-at="2020-10-26T22:14:28 EDT" finished-at="2020-10-26T22:14:43 EDT">
+          <reporter-output>
+            <line>
+              <![CDATA[Success login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkValidLogin -->
+      </class> <!-- com.wordpress.tests.WordpressValidLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

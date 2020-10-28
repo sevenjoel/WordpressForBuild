@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 104.758 s <<< FAILURE! - in TestSuite
+loginToWordpress(com.wordpress.tests.KeywordDrivenUsingExcel)  Time elapsed: 8.294 s  <<< FAILURE!
+java.lang.AssertionError: expected [http://demosite.center/wordpress/wp-login.php] but found [http://demosite.center/wordpress/wp-admin/]
+	at com.wordpress.tests.KeywordDrivenUsingExcel.loginToWordpress(KeywordDrivenUsingExcel.java:31)
+
+loginToWordpress(com.wordpress.tests.KeywordDrivenUsingExcel)  Time elapsed: 6.048 s  <<< FAILURE!
+java.lang.AssertionError: expected [http://demosite.center/wordpress/wp-login.php] but found [http://demosite.center/wordpress/wp-admin/]
+	at com.wordpress.tests.KeywordDrivenUsingExcel.loginToWordpress(KeywordDrivenUsingExcel.java:31)
+
+loginToWordpress(com.wordpress.tests.DataDrivenUsingExcel)  Time elapsed: 7.45 s  <<< FAILURE!
+java.lang.AssertionError: expected [http://demosite.center/wordpress/wp-login.php] but found [http://demosite.center/wordpress/wp-admin/]
+	at com.wordpress.tests.DataDrivenUsingExcel.loginToWordpress(DataDrivenUsingExcel.java:26)
+
+loginToWordpress(com.wordpress.tests.DataDrivenUsingExcel)  Time elapsed: 6.509 s  <<< FAILURE!
+java.lang.AssertionError: expected [http://demosite.center/wordpress/wp-login.php] but found [http://demosite.center/wordpress/wp-admin/]
+	at com.wordpress.tests.DataDrivenUsingExcel.loginToWordpress(DataDrivenUsingExcel.java:26)
+
+loginToWordpress(com.wordpress.tests.DataDrivenUsingDataProvider)  Time elapsed: 6.018 s  <<< FAILURE!
+java.lang.AssertionError: expected [http://demosite.center/wordpress/wp-login.php] but found [http://demosite.center/wordpress/wp-admin/]
+	at com.wordpress.tests.DataDrivenUsingDataProvider.loginToWordpress(DataDrivenUsingDataProvider.java:25)
+
+loginToWordpress(com.wordpress.tests.DataDrivenUsingDataProvider)  Time elapsed: 7.897 s  <<< FAILURE!
+java.lang.AssertionError: expected [http://demosite.center/wordpress/wp-login.php] but found [http://demosite.center/wordpress/wp-admin/]
+	at com.wordpress.tests.DataDrivenUsingDataProvider.loginToWordpress(DataDrivenUsingDataProvider.java:25)
+
